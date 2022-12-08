@@ -1,0 +1,338 @@
+/* html{
+
+} */
+
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Fredoka One', cursive;
+    margin: 0;
+    color: antiquewhite;
+}
+.nav{
+    background-color:#252A34;
+    padding: 20px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+@media screen and(max-width: 400px) {
+  
+
+  .homeBtn{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+  .home{
+  height: auto;
+  width: auto;
+  }
+  .about{
+    height: auto;
+  }
+  .education{
+height:auto;
+width: auto;
+  }
+  .form{
+height: auto;
+width: auto;
+  }
+}
+
+@media (max-width: 480px){
+  #footer { 
+      display : none; 
+      visibility : hidden; 
+  }
+}
+
+button {
+    left:0;
+    top:0;
+    position:relative;
+    margin-top:10%;
+    background:#05FDD8;
+    border:1px solid black;
+    padding:20px;
+    font-size:0.9em;
+    color:#000000;
+    box-shadow:4px 4px 0px 0px #FD2155;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    transition: all 250ms ease-in-out;
+    
+  }
+
+  button:hover {
+    letter-spacing: 3px;
+    font-weight: 700;
+    box-shadow: 4px 4px 0 0 #05FDD8;
+    color: #05FDD8;
+    border:1px solid black;
+    transition: 0.5s ease-in-out;
+    background: #FD2155;
+  }
+
+.homeBtn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;    
+}
+.website{
+    margin: 1;
+    text-align: center;
+    background-color:black;
+}
+
+.home{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(220, 215, 195);
+    font-weight: 700;
+    padding: 90px;
+    margin: 0;
+    font-size: 20px;
+    background-color: #08d9d6;
+    background-image: linear-gradient(45deg, #08d9d6 15%, #ff2e63 85%);
+    height: 1000px;
+    
+}
+
+.hello{
+  height: auto;
+  font-size:40px;
+  color: #FD2155;
+}
+
+.dev{
+font-size: 36px;
+  background: -webkit-linear-gradient(45deg, #15d6e8 0%, #2bff80 52%, #ffb700 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 90px;
+    margin: 0;
+    font-size: 24px;
+    height: auto;
+    background-color: #ff2e63;
+    background-image: linear-gradient(45deg, #ff2e63 15%, #08d9d6 85%);
+}
+
+.academic{
+  font-weight: 800;
+  font-size: 24px;
+  color: #252A34;
+}
+
+.education{
+    padding: 90px;
+    margin: 0;
+    height: auto;
+    background-color: #08d9d6;
+    background-image: linear-gradient(45deg, #08d9d6 15%, #ff2e63 85%);
+
+}
+
+
+.form{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(0, 255, 128);
+  font-size: larger;
+  font-weight: 600;
+  height:100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #ff2e63;
+  background-image: linear-gradient(45deg, #ff2e63 15%, #08d9d6 85%);
+  text-shadow: #000000 2px 2px;
+  padding: 90px;
+  margin: 0;
+}
+
+.container-name {
+    margin-left: 30px;
+    margin-top: 60px;
+  }
+
+.table{
+  display: flex;
+  justify-content: center;
+  color: rgb(3, 54, 66);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+text-decoration: underline;
+  text-align: center;
+}
+
+  .example_f {
+    border-radius: 4px;
+    background: linear-gradient(to right, #67b26b, #4ca2cb) !important;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .example_f span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  
+  .example_f span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .example_f:hover span {
+    padding-right: 25px;
+  }
+  
+  .example_f:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .formBtn{
+   display: flex;
+   justify-content: center; 
+   justify-content: space-evenly;
+   margin-bottom: 30px;
+   
+   
+   
+  }
+  
+  .btSub {
+    background: #097fe0;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(127, 215, 140);
+    text-shadow: none;
+    font-size:large;
+  }
+  
+  .btSub:hover {
+    background: rgb(101, 236, 146);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(129, 113, 231);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(101, 128, 226);
+    text-shadow: none;
+
+  }
+
+  .btRes {
+    background: #f18a1d;
+    color: rgb(255, 255, 255);
+    font-size:large;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(127, 215, 140);
+    text-shadow: none;
+  }
+  
+  .btRes:hover {
+    background: rgb(242, 85, 85);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(129, 113, 231);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(245, 141, 37);
+    text-shadow: none;
+  }
+
+.date{
+  font-size: larger;
+  color: #e8a515;
+  font-weight: bold;
+}
+
+.ah{
+  font-size: larger;
+  color: rgb(97, 228, 82);
+}
+
+.academic{
+  color: wheat;
+  font-size: 24px;
+}
+
+  .sup{
+    font-size: 8px;
+  }
+
+.heading{
+color: #FD2155;
+text-shadow: #2bffed 2px 2px;
+font-size: 48px;
+}
+
+.heading:hover{
+  text-shadow: #03432b 3px 3px;
+  font-size: 52px;
+  transition: 500ms;
+}
+
+  .navf{
+    margin-top: 0;
+    height: 20px; 
+  
+  }
+
+  @media (max-width: 480px){
+    #footer { 
+        display : none; 
+        visibility : hidden; 
+    }
+    .navf{
+      display : none; 
+      visibility : hidden; 
+    }
+}
+
+.plan{
+  font-size: larger;
+  font-weight: 600;
+  color: #252A34;
+letter-spacing: 2px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.education-box{
+ 
+  border: 8px solid #af53d6;
+  box-shadow: #05f9fd 2px 2px;
+  padding: 20px ;
+  display: block;
+  justify-content: center;
+width: auto;
+height: auto;
+}
